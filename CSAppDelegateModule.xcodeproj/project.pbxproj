@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F44B174213EAEEC002CBD8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B173213EAEEC002CBD8F /* ViewController.m */; };
+		6F44B177213EAEEC002CBD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F44B175213EAEEC002CBD8F /* Main.storyboard */; };
+		6F44B179213EAEEC002CBD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F44B178213EAEEC002CBD8F /* Assets.xcassets */; };
+		6F44B17C213EAEEC002CBD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F44B17A213EAEEC002CBD8F /* LaunchScreen.storyboard */; };
+		6F44B17F213EAEEC002CBD8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B17E213EAEEC002CBD8F /* main.m */; };
+		6F44B189213EAEEC002CBD8F /* CSAppDelegateModuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B188213EAEEC002CBD8F /* CSAppDelegateModuleTests.m */; };
+		6F44B194213EAEEC002CBD8F /* CSAppDelegateModuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B193213EAEEC002CBD8F /* CSAppDelegateModuleUITests.m */; };
+		6F44B1B0213EAF1A002CBD8F /* CSMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1A3213EAF1A002CBD8F /* CSMediator.m */; };
+		6F44B1B1213EAF1A002CBD8F /* CSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1A6213EAF1A002CBD8F /* CSRouter.m */; };
+		6F44B1B2213EAF1A002CBD8F /* CSRouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1A8213EAF1A002CBD8F /* CSRouterModule.m */; };
+		6F44B1B3213EAF1A002CBD8F /* CSServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1AC213EAF1A002CBD8F /* CSServiceManager.m */; };
+		6F44B1B4213EAF1A002CBD8F /* CSServiceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1AE213EAF1A002CBD8F /* CSServiceModule.m */; };
+		6F44B201213F6CEC002CBD8F /* CSAppDelegateIntializeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1D0213F6CEC002CBD8F /* CSAppDelegateIntializeService.m */; };
+		6F44B202213F6CEC002CBD8F /* CSAppDelegateMainFlowService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1D2213F6CEC002CBD8F /* CSAppDelegateMainFlowService.m */; };
+		6F44B204213F6CEC002CBD8F /* mainFlowServicesPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F44B1D5213F6CEC002CBD8F /* mainFlowServicesPlist.plist */; };
+		6F44B206213F6CEC002CBD8F /* CSAppDelegateNotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1DA213F6CEC002CBD8F /* CSAppDelegateNotificationService.m */; };
+		6F44B20C213F6CEC002CBD8F /* CSAppDelegateSpotlightService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1E6213F6CEC002CBD8F /* CSAppDelegateSpotlightService.m */; };
+		6F44B20D213F6CEC002CBD8F /* openAppServicesPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F44B1E7213F6CEC002CBD8F /* openAppServicesPlist.plist */; };
+		6F44B211213F6CEC002CBD8F /* CSAppDelegateLogService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1F0213F6CEC002CBD8F /* CSAppDelegateLogService.m */; };
+		6F44B212213F6CEC002CBD8F /* pluginServicesPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F44B1F1213F6CEC002CBD8F /* pluginServicesPlist.plist */; };
+		6F44B213213F6CEC002CBD8F /* CSAppDelegateDataBaseMigrationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B1F4213F6CEC002CBD8F /* CSAppDelegateDataBaseMigrationService.m */; };
+		6F44B219213F6CEC002CBD8F /* uiServicesPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F44B1FF213F6CEC002CBD8F /* uiServicesPlist.plist */; };
+		6F44B22B213F7304002CBD8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B21C213F7304002CBD8F /* AppDelegate.m */; };
+		6F44B22C213F7304002CBD8F /* CSAppDelegateModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B21E213F7304002CBD8F /* CSAppDelegateModule.m */; };
+		6F44B22D213F7304002CBD8F /* CSAppDelegateModuleProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B220213F7304002CBD8F /* CSAppDelegateModuleProxy.m */; };
+		6F44B22E213F7304002CBD8F /* CSAppDelegateProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B224213F7304002CBD8F /* CSAppDelegateProxyViewController.m */; };
+		6F44B22F213F7304002CBD8F /* CSAppDelegateServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B227213F7304002CBD8F /* CSAppDelegateServiceManager.m */; };
+		6F44B230213F7304002CBD8F /* CSAppServiceDataMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F44B22A213F7304002CBD8F /* CSAppServiceDataMode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F44B185213EAEEC002CBD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F44B164213EAEEC002CBD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F44B16B213EAEEC002CBD8F;
+			remoteInfo = CSAppDelegateModule;
+		};
+		6F44B190213EAEEC002CBD8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F44B164213EAEEC002CBD8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F44B16B213EAEEC002CBD8F;
+			remoteInfo = CSAppDelegateModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F44B16C213EAEEC002CBD8F /* CSAppDelegateModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSAppDelegateModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F44B172213EAEEC002CBD8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F44B173213EAEEC002CBD8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F44B176213EAEEC002CBD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F44B178213EAEEC002CBD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F44B17B213EAEEC002CBD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F44B17D213EAEEC002CBD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F44B17E213EAEEC002CBD8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F44B184213EAEEC002CBD8F /* CSAppDelegateModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSAppDelegateModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F44B188213EAEEC002CBD8F /* CSAppDelegateModuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateModuleTests.m; sourceTree = "<group>"; };
+		6F44B18A213EAEEC002CBD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F44B18F213EAEEC002CBD8F /* CSAppDelegateModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSAppDelegateModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F44B193213EAEEC002CBD8F /* CSAppDelegateModuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateModuleUITests.m; sourceTree = "<group>"; };
+		6F44B195213EAEEC002CBD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F44B1A2213EAF1A002CBD8F /* CSMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMediator.h; sourceTree = "<group>"; };
+		6F44B1A3213EAF1A002CBD8F /* CSMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMediator.m; sourceTree = "<group>"; };
+		6F44B1A5213EAF1A002CBD8F /* CSRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRouter.h; sourceTree = "<group>"; };
+		6F44B1A6213EAF1A002CBD8F /* CSRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRouter.m; sourceTree = "<group>"; };
+		6F44B1A7213EAF1A002CBD8F /* CSRouterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRouterModule.h; sourceTree = "<group>"; };
+		6F44B1A8213EAF1A002CBD8F /* CSRouterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRouterModule.m; sourceTree = "<group>"; };
+		6F44B1A9213EAF1A002CBD8F /* CSRouterModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRouterModuleProtocol.h; sourceTree = "<group>"; };
+		6F44B1AB213EAF1A002CBD8F /* CSServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceManager.h; sourceTree = "<group>"; };
+		6F44B1AC213EAF1A002CBD8F /* CSServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServiceManager.m; sourceTree = "<group>"; };
+		6F44B1AD213EAF1A002CBD8F /* CSServiceModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceModule.h; sourceTree = "<group>"; };
+		6F44B1AE213EAF1A002CBD8F /* CSServiceModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServiceModule.m; sourceTree = "<group>"; };
+		6F44B1AF213EAF1A002CBD8F /* CSServiceModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceModuleProtocol.h; sourceTree = "<group>"; };
+		6F44B1CF213F6CEC002CBD8F /* CSAppDelegateIntializeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateIntializeService.h; sourceTree = "<group>"; };
+		6F44B1D0213F6CEC002CBD8F /* CSAppDelegateIntializeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateIntializeService.m; sourceTree = "<group>"; };
+		6F44B1D1213F6CEC002CBD8F /* CSAppDelegateMainFlowService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateMainFlowService.h; sourceTree = "<group>"; };
+		6F44B1D2213F6CEC002CBD8F /* CSAppDelegateMainFlowService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateMainFlowService.m; sourceTree = "<group>"; };
+		6F44B1D5213F6CEC002CBD8F /* mainFlowServicesPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mainFlowServicesPlist.plist; sourceTree = "<group>"; };
+		6F44B1D9213F6CEC002CBD8F /* CSAppDelegateNotificationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateNotificationService.h; sourceTree = "<group>"; };
+		6F44B1DA213F6CEC002CBD8F /* CSAppDelegateNotificationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateNotificationService.m; sourceTree = "<group>"; };
+		6F44B1E5213F6CEC002CBD8F /* CSAppDelegateSpotlightService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateSpotlightService.h; sourceTree = "<group>"; };
+		6F44B1E6213F6CEC002CBD8F /* CSAppDelegateSpotlightService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateSpotlightService.m; sourceTree = "<group>"; };
+		6F44B1E7213F6CEC002CBD8F /* openAppServicesPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = openAppServicesPlist.plist; sourceTree = "<group>"; };
+		6F44B1EF213F6CEC002CBD8F /* CSAppDelegateLogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateLogService.h; sourceTree = "<group>"; };
+		6F44B1F0213F6CEC002CBD8F /* CSAppDelegateLogService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateLogService.m; sourceTree = "<group>"; };
+		6F44B1F1213F6CEC002CBD8F /* pluginServicesPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pluginServicesPlist.plist; sourceTree = "<group>"; };
+		6F44B1F3213F6CEC002CBD8F /* CSAppDelegateDataBaseMigrationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateDataBaseMigrationService.h; sourceTree = "<group>"; };
+		6F44B1F4213F6CEC002CBD8F /* CSAppDelegateDataBaseMigrationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateDataBaseMigrationService.m; sourceTree = "<group>"; };
+		6F44B1FF213F6CEC002CBD8F /* uiServicesPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = uiServicesPlist.plist; sourceTree = "<group>"; };
+		6F44B21B213F7304002CBD8F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F44B21C213F7304002CBD8F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F44B21D213F7304002CBD8F /* CSAppDelegateModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateModule.h; sourceTree = "<group>"; };
+		6F44B21E213F7304002CBD8F /* CSAppDelegateModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateModule.m; sourceTree = "<group>"; };
+		6F44B21F213F7304002CBD8F /* CSAppDelegateModuleProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateModuleProxy.h; sourceTree = "<group>"; };
+		6F44B220213F7304002CBD8F /* CSAppDelegateModuleProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateModuleProxy.m; sourceTree = "<group>"; };
+		6F44B221213F7304002CBD8F /* CSAppDelegateModulePublicProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateModulePublicProtocol.h; sourceTree = "<group>"; };
+		6F44B222213F7304002CBD8F /* CSAppDelegatePrivateServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegatePrivateServiceProtocol.h; sourceTree = "<group>"; };
+		6F44B223213F7304002CBD8F /* CSAppDelegateProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateProxyViewController.h; sourceTree = "<group>"; };
+		6F44B224213F7304002CBD8F /* CSAppDelegateProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateProxyViewController.m; sourceTree = "<group>"; };
+		6F44B225213F7304002CBD8F /* CSAppDelegateServiceHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateServiceHeader.h; sourceTree = "<group>"; };
+		6F44B226213F7304002CBD8F /* CSAppDelegateServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateServiceManager.h; sourceTree = "<group>"; };
+		6F44B227213F7304002CBD8F /* CSAppDelegateServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegateServiceManager.m; sourceTree = "<group>"; };
+		6F44B228213F7304002CBD8F /* CSAppDelegateServiceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppDelegateServiceManagerProtocol.h; sourceTree = "<group>"; };
+		6F44B229213F7304002CBD8F /* CSAppServiceDataMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAppServiceDataMode.h; sourceTree = "<group>"; };
+		6F44B22A213F7304002CBD8F /* CSAppServiceDataMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAppServiceDataMode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F44B169213EAEEC002CBD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F44B181213EAEEC002CBD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F44B18C213EAEEC002CBD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F44B163213EAEEC002CBD8F = {
+			isa = PBXGroup;
+			children = (
+				6F44B16E213EAEEC002CBD8F /* CSAppDelegateModule */,
+				6F44B187213EAEEC002CBD8F /* CSAppDelegateModuleTests */,
+				6F44B192213EAEEC002CBD8F /* CSAppDelegateModuleUITests */,
+				6F44B16D213EAEEC002CBD8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F44B16D213EAEEC002CBD8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B16C213EAEEC002CBD8F /* CSAppDelegateModule.app */,
+				6F44B184213EAEEC002CBD8F /* CSAppDelegateModuleTests.xctest */,
+				6F44B18F213EAEEC002CBD8F /* CSAppDelegateModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F44B16E213EAEEC002CBD8F /* CSAppDelegateModule */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B21A213F7304002CBD8F /* AppModule */,
+				6F44B1CB213F6CEC002CBD8F /* AppDelegateServices */,
+				6F44B1A1213EAF1A002CBD8F /* CSMediator */,
+				6F44B172213EAEEC002CBD8F /* ViewController.h */,
+				6F44B173213EAEEC002CBD8F /* ViewController.m */,
+				6F44B175213EAEEC002CBD8F /* Main.storyboard */,
+				6F44B178213EAEEC002CBD8F /* Assets.xcassets */,
+				6F44B17A213EAEEC002CBD8F /* LaunchScreen.storyboard */,
+				6F44B17D213EAEEC002CBD8F /* Info.plist */,
+				6F44B17E213EAEEC002CBD8F /* main.m */,
+			);
+			path = CSAppDelegateModule;
+			sourceTree = "<group>";
+		};
+		6F44B187213EAEEC002CBD8F /* CSAppDelegateModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B188213EAEEC002CBD8F /* CSAppDelegateModuleTests.m */,
+				6F44B18A213EAEEC002CBD8F /* Info.plist */,
+			);
+			path = CSAppDelegateModuleTests;
+			sourceTree = "<group>";
+		};
+		6F44B192213EAEEC002CBD8F /* CSAppDelegateModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B193213EAEEC002CBD8F /* CSAppDelegateModuleUITests.m */,
+				6F44B195213EAEEC002CBD8F /* Info.plist */,
+			);
+			path = CSAppDelegateModuleUITests;
+			sourceTree = "<group>";
+		};
+		6F44B1A1213EAF1A002CBD8F /* CSMediator */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B1A2213EAF1A002CBD8F /* CSMediator.h */,
+				6F44B1A3213EAF1A002CBD8F /* CSMediator.m */,
+				6F44B1A4213EAF1A002CBD8F /* Router */,
+				6F44B1AA213EAF1A002CBD8F /* Service */,
+			);
+			path = CSMediator;
+			sourceTree = "<group>";
+		};
+		6F44B1A4213EAF1A002CBD8F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B1A5213EAF1A002CBD8F /* CSRouter.h */,
+				6F44B1A6213EAF1A002CBD8F /* CSRouter.m */,
+				6F44B1A7213EAF1A002CBD8F /* CSRouterModule.h */,
+				6F44B1A8213EAF1A002CBD8F /* CSRouterModule.m */,
+				6F44B1A9213EAF1A002CBD8F /* CSRouterModuleProtocol.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		6F44B1AA213EAF1A002CBD8F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B1AB213EAF1A002CBD8F /* CSServiceManager.h */,
+				6F44B1AC213EAF1A002CBD8F /* CSServiceManager.m */,
+				6F44B1AD213EAF1A002CBD8F /* CSServiceModule.h */,
+				6F44B1AE213EAF1A002CBD8F /* CSServiceModule.m */,
+				6F44B1AF213EAF1A002CBD8F /* CSServiceModuleProtocol.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6F44B1CB213F6CEC002CBD8F /* AppDelegateServices */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B1CC213F6CEC002CBD8F /* MainFlowServices */,
+				6F44B1D6213F6CEC002CBD8F /* OpenAppServices */,
+				6F44B1E8213F6CEC002CBD8F /* PluginServices */,
+				6F44B1F2213F6CEC002CBD8F /* UIServices */,
+			);
+			path = AppDelegateServices;
+			sourceTree = "<group>";
+		};
+		6F44B1CC213F6CEC002CBD8F /* MainFlowServices */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B1CF213F6CEC002CBD8F /* CSAppDelegateIntializeService.h */,
+				6F44B1D0213F6CEC002CBD8F /* CSAppDelegateIntializeService.m */,
+				6F44B1D1213F6CEC002CBD8F /* CSAppDelegateMainFlowService.h */,
+				6F44B1D2213F6CEC002CBD8F /* CSAppDelegateMainFlowService.m */,
+				6F44B1D5213F6CEC002CBD8F /* mainFlowServicesPlist.plist */,
+			);
+			path = MainFlowServices;
+			sourceTree = "<group>";
+		};
+		6F44B1D6213F6CEC002CBD8F /* OpenAppServices */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B1D9213F6CEC002CBD8F /* CSAppDelegateNotificationService.h */,
+				6F44B1DA213F6CEC002CBD8F /* CSAppDelegateNotificationService.m */,
+				6F44B1E5213F6CEC002CBD8F /* CSAppDelegateSpotlightService.h */,
+				6F44B1E6213F6CEC002CBD8F /* CSAppDelegateSpotlightService.m */,
+				6F44B1E7213F6CEC002CBD8F /* openAppServicesPlist.plist */,
+			);
+			path = OpenAppServices;
+			sourceTree = "<group>";
+		};
+		6F44B1E8213F6CEC002CBD8F /* PluginServices */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B1EF213F6CEC002CBD8F /* CSAppDelegateLogService.h */,
+				6F44B1F0213F6CEC002CBD8F /* CSAppDelegateLogService.m */,
+				6F44B1F1213F6CEC002CBD8F /* pluginServicesPlist.plist */,
+			);
+			path = PluginServices;
+			sourceTree = "<group>";
+		};
+		6F44B1F2213F6CEC002CBD8F /* UIServices */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B1F3213F6CEC002CBD8F /* CSAppDelegateDataBaseMigrationService.h */,
+				6F44B1F4213F6CEC002CBD8F /* CSAppDelegateDataBaseMigrationService.m */,
+				6F44B1FF213F6CEC002CBD8F /* uiServicesPlist.plist */,
+			);
+			path = UIServices;
+			sourceTree = "<group>";
+		};
+		6F44B21A213F7304002CBD8F /* AppModule */ = {
+			isa = PBXGroup;
+			children = (
+				6F44B21B213F7304002CBD8F /* AppDelegate.h */,
+				6F44B21C213F7304002CBD8F /* AppDelegate.m */,
+				6F44B21D213F7304002CBD8F /* CSAppDelegateModule.h */,
+				6F44B21E213F7304002CBD8F /* CSAppDelegateModule.m */,
+				6F44B21F213F7304002CBD8F /* CSAppDelegateModuleProxy.h */,
+				6F44B220213F7304002CBD8F /* CSAppDelegateModuleProxy.m */,
+				6F44B221213F7304002CBD8F /* CSAppDelegateModulePublicProtocol.h */,
+				6F44B222213F7304002CBD8F /* CSAppDelegatePrivateServiceProtocol.h */,
+				6F44B223213F7304002CBD8F /* CSAppDelegateProxyViewController.h */,
+				6F44B224213F7304002CBD8F /* CSAppDelegateProxyViewController.m */,
+				6F44B225213F7304002CBD8F /* CSAppDelegateServiceHeader.h */,
+				6F44B226213F7304002CBD8F /* CSAppDelegateServiceManager.h */,
+				6F44B227213F7304002CBD8F /* CSAppDelegateServiceManager.m */,
+				6F44B228213F7304002CBD8F /* CSAppDelegateServiceManagerProtocol.h */,
+				6F44B229213F7304002CBD8F /* CSAppServiceDataMode.h */,
+				6F44B22A213F7304002CBD8F /* CSAppServiceDataMode.m */,
+			);
+			path = AppModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F44B16B213EAEEC002CBD8F /* CSAppDelegateModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F44B198213EAEEC002CBD8F /* Build configuration list for PBXNativeTarget "CSAppDelegateModule" */;
+			buildPhases = (
+				6F44B168213EAEEC002CBD8F /* Sources */,
+				6F44B169213EAEEC002CBD8F /* Frameworks */,
+				6F44B16A213EAEEC002CBD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSAppDelegateModule;
+			productName = CSAppDelegateModule;
+			productReference = 6F44B16C213EAEEC002CBD8F /* CSAppDelegateModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F44B183213EAEEC002CBD8F /* CSAppDelegateModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F44B19B213EAEEC002CBD8F /* Build configuration list for PBXNativeTarget "CSAppDelegateModuleTests" */;
+			buildPhases = (
+				6F44B180213EAEEC002CBD8F /* Sources */,
+				6F44B181213EAEEC002CBD8F /* Frameworks */,
+				6F44B182213EAEEC002CBD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F44B186213EAEEC002CBD8F /* PBXTargetDependency */,
+			);
+			name = CSAppDelegateModuleTests;
+			productName = CSAppDelegateModuleTests;
+			productReference = 6F44B184213EAEEC002CBD8F /* CSAppDelegateModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F44B18E213EAEEC002CBD8F /* CSAppDelegateModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F44B19E213EAEEC002CBD8F /* Build configuration list for PBXNativeTarget "CSAppDelegateModuleUITests" */;
+			buildPhases = (
+				6F44B18B213EAEEC002CBD8F /* Sources */,
+				6F44B18C213EAEEC002CBD8F /* Frameworks */,
+				6F44B18D213EAEEC002CBD8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F44B191213EAEEC002CBD8F /* PBXTargetDependency */,
+			);
+			name = CSAppDelegateModuleUITests;
+			productName = CSAppDelegateModuleUITests;
+			productReference = 6F44B18F213EAEEC002CBD8F /* CSAppDelegateModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F44B164213EAEEC002CBD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "余强";
+				TargetAttributes = {
+					6F44B16B213EAEEC002CBD8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6F44B183213EAEEC002CBD8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F44B16B213EAEEC002CBD8F;
+					};
+					6F44B18E213EAEEC002CBD8F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6F44B16B213EAEEC002CBD8F;
+					};
+				};
+			};
+			buildConfigurationList = 6F44B167213EAEEC002CBD8F /* Build configuration list for PBXProject "CSAppDelegateModule" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F44B163213EAEEC002CBD8F;
+			productRefGroup = 6F44B16D213EAEEC002CBD8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F44B16B213EAEEC002CBD8F /* CSAppDelegateModule */,
+				6F44B183213EAEEC002CBD8F /* CSAppDelegateModuleTests */,
+				6F44B18E213EAEEC002CBD8F /* CSAppDelegateModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F44B16A213EAEEC002CBD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F44B212213F6CEC002CBD8F /* pluginServicesPlist.plist in Resources */,
+				6F44B17C213EAEEC002CBD8F /* LaunchScreen.storyboard in Resources */,
+				6F44B179213EAEEC002CBD8F /* Assets.xcassets in Resources */,
+				6F44B20D213F6CEC002CBD8F /* openAppServicesPlist.plist in Resources */,
+				6F44B219213F6CEC002CBD8F /* uiServicesPlist.plist in Resources */,
+				6F44B204213F6CEC002CBD8F /* mainFlowServicesPlist.plist in Resources */,
+				6F44B177213EAEEC002CBD8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F44B182213EAEEC002CBD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F44B18D213EAEEC002CBD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F44B168213EAEEC002CBD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F44B174213EAEEC002CBD8F /* ViewController.m in Sources */,
+				6F44B213213F6CEC002CBD8F /* CSAppDelegateDataBaseMigrationService.m in Sources */,
+				6F44B1B4213EAF1A002CBD8F /* CSServiceModule.m in Sources */,
+				6F44B201213F6CEC002CBD8F /* CSAppDelegateIntializeService.m in Sources */,
+				6F44B22E213F7304002CBD8F /* CSAppDelegateProxyViewController.m in Sources */,
+				6F44B20C213F6CEC002CBD8F /* CSAppDelegateSpotlightService.m in Sources */,
+				6F44B230213F7304002CBD8F /* CSAppServiceDataMode.m in Sources */,
+				6F44B17F213EAEEC002CBD8F /* main.m in Sources */,
+				6F44B22B213F7304002CBD8F /* AppDelegate.m in Sources */,
+				6F44B22F213F7304002CBD8F /* CSAppDelegateServiceManager.m in Sources */,
+				6F44B1B2213EAF1A002CBD8F /* CSRouterModule.m in Sources */,
+				6F44B22C213F7304002CBD8F /* CSAppDelegateModule.m in Sources */,
+				6F44B202213F6CEC002CBD8F /* CSAppDelegateMainFlowService.m in Sources */,
+				6F44B1B3213EAF1A002CBD8F /* CSServiceManager.m in Sources */,
+				6F44B206213F6CEC002CBD8F /* CSAppDelegateNotificationService.m in Sources */,
+				6F44B211213F6CEC002CBD8F /* CSAppDelegateLogService.m in Sources */,
+				6F44B1B0213EAF1A002CBD8F /* CSMediator.m in Sources */,
+				6F44B1B1213EAF1A002CBD8F /* CSRouter.m in Sources */,
+				6F44B22D213F7304002CBD8F /* CSAppDelegateModuleProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F44B180213EAEEC002CBD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F44B189213EAEEC002CBD8F /* CSAppDelegateModuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F44B18B213EAEEC002CBD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F44B194213EAEEC002CBD8F /* CSAppDelegateModuleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F44B186213EAEEC002CBD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F44B16B213EAEEC002CBD8F /* CSAppDelegateModule */;
+			targetProxy = 6F44B185213EAEEC002CBD8F /* PBXContainerItemProxy */;
+		};
+		6F44B191213EAEEC002CBD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F44B16B213EAEEC002CBD8F /* CSAppDelegateModule */;
+			targetProxy = 6F44B190213EAEEC002CBD8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F44B175213EAEEC002CBD8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F44B176213EAEEC002CBD8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F44B17A213EAEEC002CBD8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F44B17B213EAEEC002CBD8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F44B196213EAEEC002CBD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F44B197213EAEEC002CBD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F44B199213EAEEC002CBD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99LSSXFZX4;
+				INFOPLIST_FILE = CSAppDelegateModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qyu.CSAppDelegateModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F44B19A213EAEEC002CBD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99LSSXFZX4;
+				INFOPLIST_FILE = CSAppDelegateModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qyu.CSAppDelegateModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F44B19C213EAEEC002CBD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99LSSXFZX4;
+				INFOPLIST_FILE = CSAppDelegateModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qyu.CSAppDelegateModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSAppDelegateModule.app/CSAppDelegateModule";
+			};
+			name = Debug;
+		};
+		6F44B19D213EAEEC002CBD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99LSSXFZX4;
+				INFOPLIST_FILE = CSAppDelegateModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qyu.CSAppDelegateModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSAppDelegateModule.app/CSAppDelegateModule";
+			};
+			name = Release;
+		};
+		6F44B19F213EAEEC002CBD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99LSSXFZX4;
+				INFOPLIST_FILE = CSAppDelegateModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qyu.CSAppDelegateModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSAppDelegateModule;
+			};
+			name = Debug;
+		};
+		6F44B1A0213EAEEC002CBD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99LSSXFZX4;
+				INFOPLIST_FILE = CSAppDelegateModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qyu.CSAppDelegateModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CSAppDelegateModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F44B167213EAEEC002CBD8F /* Build configuration list for PBXProject "CSAppDelegateModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F44B196213EAEEC002CBD8F /* Debug */,
+				6F44B197213EAEEC002CBD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F44B198213EAEEC002CBD8F /* Build configuration list for PBXNativeTarget "CSAppDelegateModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F44B199213EAEEC002CBD8F /* Debug */,
+				6F44B19A213EAEEC002CBD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F44B19B213EAEEC002CBD8F /* Build configuration list for PBXNativeTarget "CSAppDelegateModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F44B19C213EAEEC002CBD8F /* Debug */,
+				6F44B19D213EAEEC002CBD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F44B19E213EAEEC002CBD8F /* Build configuration list for PBXNativeTarget "CSAppDelegateModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F44B19F213EAEEC002CBD8F /* Debug */,
+				6F44B1A0213EAEEC002CBD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F44B164213EAEEC002CBD8F /* Project object */;
+}
